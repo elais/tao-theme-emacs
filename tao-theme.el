@@ -218,7 +218,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(vertical-border                                  ((t (:foreground ,color-7 :background ,color-4))))
    ;; font lock
    `(font-lock-builtin-face                           ((t (:foreground ,color-13 :italic t ))))
-   `(font-lock-keyword-face                           ((t (:foreground ,color-14 ))))
+   `(font-lock-keyword-face                           ((t (:foreground ,color-14 :bold t))))
    `(font-lock-comment-face                           ((t (:foreground ,color-7 :italic t ))))
    `(font-lock-comment-delimiter-face                 ((t (:foreground ,color-9))))
    `(font-lock-constant-face                          ((t (:foreground ,color-9 :weight bold))))
